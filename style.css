@@ -1,0 +1,141 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #08111f;
+    color: #edf4ff;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+}
+button, input{
+    font-family: inherit;
+}
+
+
+
+.tophead{
+    display: flex;
+    min-height:82px ;
+    gap:20px;
+    align-items: center;
+    justify-content: space-between;
+    background: #111f34;
+    border-bottom: 1px solid #2a3b59;
+    padding:10px 5%;
+
+}
+
+
+.logo{
+    display: flex;
+}
+
+.brand-logo{
+    background: #287ee8;
+    border-radius: 10px;
+    font-size: 23px;
+    font-weight: bold;
+    padding: 12px 16px;
+}
+
+.logo h1{
+    color: #54a5ff;
+    letter-spacing: 3px;
+}
+
+.logo p{
+    font-size: 9px;
+    color: #91a8c5;
+}
+
+nav a{
+    color: #f1f3f6;
+    font-size: 13px;
+    text-decoration: none;
+
+}
+nav a:hover{
+    color: #54a5ff;
+}
+
+.system-dot{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #59d6a0;
+    font-size: 12px;
+
+}
+.dot{
+    width: 9px;
+    height: 9px;
+    background-color: #39d680;
+    border-radius: 50%;
+}
+#clocl{
+    color: white;
+    margin-left: 10px;
+    font-family: monospace;
+}
+
+button{
+    color: white;
+    background: #287ee8;
+    border: 0;
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #54a5ff;
+}
+
+.page{
+    padding:35px 5%;
+}
+.page p{
+    color:#91a8c5
+}
+
+.kpi-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    margin-top: 30px;
+    padding: 5%;
+
+}
+.kpi-card{
+    background-color: #14243a;
+    border: 1px solid #2a426d;
+    transition: 0.2s;
+    padding: 5%;
+    border-radius: 10px;
+}
+.kpi-card:hover{
+    border: 1px solid #54a5ff;
+    transform: translateY(-3px);
+
+}
+.kpi-card span{
+    font-size: 20px;
+    color: #54a5ff;
+    margin-bottom: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+
+.kpi-card h2{
+    font-size: 29px;
+    color: #91a8c5;
+    letter-spacing: 1px 0 8px;
+}
